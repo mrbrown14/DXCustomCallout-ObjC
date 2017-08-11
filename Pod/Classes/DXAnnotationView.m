@@ -9,14 +9,6 @@
 #import "DXAnnotationView.h"
 #import "DXAnnotationSettings.h"
 
-@interface DXAnnotationView () {
-    BOOL _hasCalloutView;
-}
-
-@property(nonatomic, strong) DXAnnotationSettings *settings;
-
-@end
-
 @implementation DXAnnotationView
 
 - (instancetype)initWithAnnotation:(id<MKAnnotation>)annotation
